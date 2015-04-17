@@ -178,7 +178,7 @@ static int minfs_fill_super(struct super_block *s, void *data, int silent)
 	/* TODO 2: use myfs_get_inode instead of minfs_iget */
 	//root_inode = minfs_iget(s, 0);
 	printk("alex 1\n");
-	root_inode = myfs_get_inode(s, S_IFDIR | S_IRWXU | S_IRGRP |
+	root_inode = minfs_iget(s, S_IFDIR | S_IRWXU | S_IRGRP |
 			S_IXGRP | S_IROTH | S_IXOTH);
 	root_inode->i_ino = 1;
 	if (!root_inode)
