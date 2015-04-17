@@ -24,6 +24,8 @@ struct minfs_dir_entry {
 	char name[MINFS_NAME_LEN];
 };
 
+
+
 /* an minfs inode uses a single block */
 struct minfs_inode {
 	__u32 mode;

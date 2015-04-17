@@ -1,1 +1,0 @@
-cmd_/home/alex/Desktop/Semestrul_II/SO2/Labs/Lab08/lab08-tasks/myfs/built-in.o :=  rm -f /home/alex/Desktop/Semestrul_II/SO2/Labs/Lab08/lab08-tasks/myfs/built-in.o; ar rcsD /home/alex/Desktop/Semestrul_II/SO2/Labs/Lab08/lab08-tasks/myfs/built-in.o
